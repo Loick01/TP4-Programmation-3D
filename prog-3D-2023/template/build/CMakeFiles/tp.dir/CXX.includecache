@@ -1,0 +1,168 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Camera.h
+Trackball.h
+../include/Trackball.h
+glm/glm.hpp
+-
+
+../include/Context.h
+Camera.h
+../include/Camera.h
+Mesh.h
+../include/Mesh.h
+Material.h
+../include/Material.h
+glm/glm.hpp
+-
+vector
+-
+
+../include/Keyboard.h
+
+../include/Material.h
+GL/glew.h
+-
+GL/glut.h
+-
+glm/glm.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+string
+-
+stdexcept
+-
+vector
+-
+
+../include/Mesh.h
+GL/glew.h
+-
+glm/glm.hpp
+-
+
+../include/Mouse.h
+
+../include/SceneLoader.h
+string
+-
+
+../include/Shader.h
+
+../include/Texture.h
+string
+-
+GL/glew.h
+-
+
+../include/Trackball.h
+
+../include/stb_image.h
+stb_image.h
+../include/stb_image.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+assert.h
+-
+stdint.h
+-
+emmintrin.h
+-
+intrin.h
+-
+arm_neon.h
+-
+
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Material.cpp
+Material.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Material.h
+Shader.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Shader.h
+glm/glm.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+GL/glew.h
+-
+GL/glut.h
+-
+Context.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Context.h
+Texture.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Texture.h
+iostream
+-
+stb_image.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/stb_image.h
+
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/main.cpp
+GL/glew.h
+-
+GL/glut.h
+-
+iostream
+-
+fstream
+-
+vector
+-
+filesystem
+-
+algorithm
+-
+string
+-
+cstdio
+-
+cstdlib
+-
+algorithm
+-
+float.h
+-
+queue
+-
+glm/glm.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+glm/gtx/string_cast.hpp
+-
+Camera.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Camera.h
+Shader.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Shader.h
+Material.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Material.h
+Context.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Context.h
+Mouse.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Mouse.h
+Keyboard.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Keyboard.h
+SceneLoader.h
+/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/SceneLoader.h
+
