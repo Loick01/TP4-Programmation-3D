@@ -56,7 +56,8 @@ unsigned int Material::loadCubemap(std::vector<std::string> liste_textures){
 void Material::init() {
 	// TODO : Change shader by your
 	
-	// Pour l'exercice 2 (normal map)
+	/*
+	// Pour l'exercice 2 (normal map) (à commenter/décommenter)
 	m_program = load_shaders("shaders/vertex.glsl", "shaders/fragment.glsl");
 	
 	check();
@@ -66,11 +67,13 @@ void Material::init() {
 	m_texture = loadTexture2DFromFilePath("data/TwoSidedPlane_BaseColor.png");
 	setDefaultTexture2DParameters(m_texture);
 	m_texture_normal = loadTexture2DFromFilePath("data/TwoSidedPlane_Normal.png");
-	
+	// (à commenter/décommenter jusqu'ici)
+	*/
 	
 	// ---------------------------------------------------------------------------------------
 	
-	/* Pour l'exercice 3 (skybox)
+	
+	// Pour l'exercice 3 (skybox) (à commenter/décommenter)
 	Context::skyboxProgram = load_shaders("shaders/vertexSkybox.glsl", "shaders/fragmentSkybox.glsl");
 	m_program = Context::skyboxProgram;
 	
@@ -141,7 +144,8 @@ void Material::init() {
 	glEnableVertexAttribArray(0);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 	glBindVertexArray(0);
-	*/
+	
+	// (à commenter/décommenter jusqu'ici)
 	
 }
 

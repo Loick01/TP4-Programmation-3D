@@ -1,7 +1,7 @@
 #version 330 core
 
-in vec3 o_positionWorld; // WorldFragPos
-in vec3 o_normalWorld; // WorldNormal
+in vec3 o_positionWorld; 
+in vec3 o_normalWorld; 
 in vec2 o_uv0;
 in mat3 tbn;
 out vec4 FragColor;
@@ -15,15 +15,12 @@ uniform vec3 couleurLight;
 uniform vec3 positionCamera;
 
 void main() {
-    //FragColor = color;
-    
     vec3 newPosLight = tbn * positionLight;
     vec3 newPosCamera = tbn * positionCamera;
     vec3 newPos = tbn * o_positionWorld;
     vec3 newNormal = texture(colorTextureNormal, o_uv0).rgb;
     newNormal = newNormal * 2.0 - 1.0;
     newNormal = normalize(tbn * newNormal);
-    
     
     // ambient
     float ambientStrength = 0.1;
@@ -43,8 +40,8 @@ void main() {
     
     
     vec3 result = (ambient + diffuse + specular);
-    FragColor = texture(colorTexture, o_uv0) * vec4(result, 1.0) * color;
-    //FragColor = texture(colorTexture, o_uv0) * color; // Il faudra faire un truc du style colorTextureNormal.rgb * 2 - 1 pour retrouver la nouvelle normale
+    FragColor = texture(colorTexture, o_uv0) * vec4(result, 1.0) * color; // Rendu de l'exercice 2 (avec normale map)
+    //FragColor = texture(colorTexture, o_uv0) * color; // Rendu de l'exercice 1 (juste la texture)
     
     
     

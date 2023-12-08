@@ -82,7 +82,24 @@ void draw() {
 	// Clear the screen
 	glClear(GL_COLOR_BUFFER_BIT);
 	
-	/* Exercice 3
+	/*
+	// Exercice 2
+	for (int i = 0; i < Context::instances.size(); ++i) {
+		Instance& inst = Context::instances[i];
+		Material* material = inst.material;
+		Mesh* mesh = inst.mesh;
+		material->bind();
+		
+	
+		material->setMatrices(Context::camera.projection, Context::camera.view, inst.matrix);
+		mesh->draw();
+	}
+	// (à commenter/décommenter jusqu'ici)
+	*/
+	// ---------------------------------------------------------------------------------------
+	
+	
+	// Exercice 3
 	glDepthMask(GL_FALSE);
 	// bind skybox
 	glUseProgram(Context::skyboxProgram);
@@ -97,19 +114,8 @@ void draw() {
 	glBindVertexArray(0);
 
 	glDepthMask(GL_TRUE);
-	*/
 	
-	// Exercice 2
-	for (int i = 0; i < Context::instances.size(); ++i) {
-		Instance& inst = Context::instances[i];
-		Material* material = inst.material;
-		Mesh* mesh = inst.mesh;
-		material->bind();
-		
-	
-		material->setMatrices(Context::camera.projection, Context::camera.view, inst.matrix);
-		mesh->draw();
-	}
+	//(à commenter/décommenter jusqu'ici)
 	
 }
 

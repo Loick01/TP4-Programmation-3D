@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/include" 
+CXX_INCLUDES = -I/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/include 
 

@@ -96,11 +96,11 @@ intrin.h
 arm_neon.h
 -
 
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Material.cpp
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Material.cpp
 Material.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Material.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Material.h
 Shader.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Shader.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Shader.h
 glm/glm.hpp
 -
 glm/gtc/type_ptr.hpp
@@ -110,15 +110,15 @@ GL/glew.h
 GL/glut.h
 -
 Context.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Context.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Context.h
 Texture.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Texture.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Texture.h
 iostream
 -
 stb_image.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/stb_image.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/stb_image.h
 
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/main.cpp
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/main.cpp
 GL/glew.h
 -
 GL/glut.h
@@ -152,17 +152,17 @@ glm/gtc/type_ptr.hpp
 glm/gtx/string_cast.hpp
 -
 Camera.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Camera.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Camera.h
 Shader.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Shader.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Shader.h
 Material.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Material.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Material.h
 Context.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Context.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Context.h
 Mouse.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Mouse.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Mouse.h
 Keyboard.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/Keyboard.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/Keyboard.h
 SceneLoader.h
-/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/src/SceneLoader.h
+/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/src/SceneLoader.h
 

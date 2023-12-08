@@ -1,4 +1,4 @@
-# Install script for directory: /home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template
+# Install script for directory: /home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/univ-pc/Bureau/M1_Imagine/M1_S7 Programmation 3D/TP4 Programmation 3D/prog-3D-2023/template/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/univ-pc/Bureau/TP4-Programmation-3D/prog-3D-2023/template/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
